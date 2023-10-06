@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container{
+    width: 700px;
+    height: 700px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: sans-serif;
+}
+.ekhlakh{
+    color: green;
+}
+.ahmad{
+    color: rgb(205, 11, 11);
+}
+#flag{
+    width: 200px;
+    border: 3px solid black;
+    position: absolute;
+    top: 110px;
+    left: 356px;
+}
+.orange-box{
+    width: 100%;
+    height: 50px;
+    background-color: #FF9933;
+    border: 1px solid black;
+}
+.white-box{
+    width: 100%;
+    height: 50px;
+    background-color: #EFEFEF;
+    border: 1px solid black;
+}
+.white-box img{
+    width: 45px;
+    margin: 2px;
+    margin-left: 70px;
+}
+.green-box{
+    width: 100%;
+    height: 50px;
+    background-color: #138808;
+    border: 1px solid black;
+    
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    border: 5px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: 15px;
+}
+.stand{
+    width: 20px;
+    height: 420px;
+    border: 5px solid black;
+    position: relative;
+    top: 10px;
+}
+.stair1{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+.stair2{
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 7px;
+}
+.stair3{
+    width: 300px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 7px;
+}
